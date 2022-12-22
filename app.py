@@ -27,7 +27,7 @@ def main() :
 
     y_pred = round(y_pred[0], 1)
     if y_pred < 0 :
-        st.sidebar.info('입력한 데이터로는 금액을 예측하기 어렵습니다')
+        st.sidebar.error('입력한 데이터로는 금액을 예측하기 어렵습니다')
     else :
         st.sidebar.info('예측한 자동차 금액은 {} 달러 입니다.'.format(y_pred))
     
