@@ -21,9 +21,9 @@ def run_eda_app() :
     df_max = df.loc[ df[seleced_column] == df[seleced_column].max() ]
     df_min = df.loc[ df[seleced_column] == df[seleced_column].min() ]
 
-    st.text('최대값 데이터')
+    st.write('최대값 데이터')
     st.dataframe(df_max)
-    st.text('최소값 데이터')
+    st.write('최소값 데이터')
     st.dataframe(df_min)
 
     st.subheader('컬럼 별 히스토그램')
