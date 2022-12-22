@@ -7,8 +7,8 @@ import seaborn as sb
 def run_eda_app() :
     df = pd.read_csv('data/Car_Purchasing_Data.csv', encoding= 'ISO-8859-1')
 
-    st.subheader('데이터 프레임 확인')
-    st.dataframe(df.head(3))
+    st.subheader('사용한 데이터 프레임 확인')
+    st.dataframe(df)
 
     st.subheader('기본 통계 데이터')
     st.dataframe(df.describe())

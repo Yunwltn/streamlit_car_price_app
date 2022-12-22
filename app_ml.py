@@ -16,9 +16,9 @@ def run_ml_app() :
     else :
         Gender = 1
     age = st.number_input('나이를 입력하세요',18, 100)
-    Annual_Salary = st.number_input('연봉을 입력하세요', 10000, 1000000)
-    Credit_Card_Debt = st.number_input('카드빚을 입력하세요', 0, 1000000)
-    Net_Worth = st.number_input('자산을 입력하세요',1000, 10000000)
+    Annual_Salary = st.number_input('연봉을 입력하세요 ($)', 10000, 1000000)
+    Credit_Card_Debt = st.number_input('카드빚을 입력하세요 ($)', 0, 1000000)
+    Net_Worth = st.number_input('자산을 입력하세요 ($)',1000, 10000000)
 
     new_data = np.array([Gender, age, Annual_Salary, Credit_Card_Debt, Net_Worth])
     new_data = new_data.reshape(1, 5)
