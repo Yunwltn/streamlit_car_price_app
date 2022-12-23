@@ -1,5 +1,5 @@
 <div align=center>
-	<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF0000,100:a82da&height=200&section=header&text=streamlit_car_price_app&fontSize=60&animation=twinkling" />
+	<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF0000,100:a82da&height=200&fontColor=FFFFFF&section=header&text=streamlit%20car%20price%20app&fontSize=60&animation=twinkling" />
 </div>	
 <div align=center>
 	<a href="mailto:yunwltn98@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=flat&logo=Gmail&logoColor=white&link="mailto:yunwltn98@gmail.com" />
@@ -96,3 +96,7 @@
 ![1](https://user-images.githubusercontent.com/120348555/209048487-e960db2e-001a-495b-b819-34f0e59fa5b0.PNG)
 ![2](https://user-images.githubusercontent.com/120348555/209048523-9aba3c5c-6a21-45b8-9635-092c163829f2.PNG)
 ![3](https://user-images.githubusercontent.com/120348555/209048547-0290c0b6-f1ad-4cdb-9dbf-956dbbf8b2d5.PNG)
+
+<div align=center>
+	<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF0000,100:a82da&height=100&section=footer&text=Thank%20you&fontSize=50&animation=twinkling" />
+</div>	
